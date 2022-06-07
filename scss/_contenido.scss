@@ -1,0 +1,181 @@
+/*VARIABLES*/
+$colorGeneral: #876445;
+
+/*CONTENIDO INDEX*/
+    /*CAJA 1*/
+.caja1 {
+    text-align: center;
+    width: 50%;
+    border: solid 3px #FFAD60;
+    margin-top: 20px;
+    margin-left: 25%;
+    background-color: #614124;
+}
+.btn {
+    margin-bottom: 7px;
+}
+.abiertos {
+    margin-top: 5px;
+    display: inline-block;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.parrafo {
+    font-weight: bold;
+    font-style: oblique;
+    margin-top: 5px;
+    color: white;
+}
+        
+    /*CANELONES*/
+.canelones {
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+}
+.textcanelones {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+        
+        /*CAJA 2*/
+.caja2 {
+    text-align: center;
+    border: black solid 2px;
+    margin-top: 190px;
+    margin-bottom: 20px;
+    background-color: #e6b995;
+}
+.texto {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.subtexto {
+    font-weight: 400;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+/*MENU*/
+.tarjetas{
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+.card {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: $colorGeneral solid;
+    width: 230px;
+    margin-top: 30px;
+}
+.card-title {
+    font-style: italic;
+    text-decoration-line: underline; 
+}
+
+    
+/*CONTACTO*/
+#contacto {
+    border: $colorGeneral solid;
+    background-color: #E6BA95;
+}
+.row {
+    color: black;
+}
+.cont {
+    color: black;
+    font-style: oblique;
+}
+
+    
+/* NOSOTROS */
+.container-all {
+    margin: auto;
+    margin-top: 50px;
+    border-top: 3px solid $colorGeneral;
+    border-bottom: 3px solid $colorGeneral;
+}
+.container-all img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.container-all p {
+    font-size: 18px;
+    font-weight: 300px;
+    margin-bottom: 50px;
+}
+.title {
+    color: rgb(88, 16, 16);
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+    
+/*TRABAJA CON NOSOTROS*/
+    /*Puesto 1*/
+.puesto1 {
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.puesto1 button {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.puesto1 p {
+    margin-left: 5px;
+    font-size: large;
+}
+    /*Puesto 2*/
+.puesto2 {
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.puesto2 button {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.puesto2 p {
+    margin-left: 5px;
+    font-size: large;
+}
+.puesto2 h5 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+    /*Puesto 3*/
+.puesto3 {
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.puesto3 button {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.puesto3 p {
+    margin-left: 5px;
+    font-size: large;
+}
+.puesto3 h5 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+    
+/*FORMULARIO CV*/
+.mb-3 {
+    font-size: large;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.formcv {
+    border: $colorGeneral 2px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

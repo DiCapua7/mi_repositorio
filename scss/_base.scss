@@ -1,0 +1,48 @@
+/*VARIABLES*/
+$colorPrimario:beige;
+$colorMenu: #E6BA95;
+
+/*ESTILOS DE BASE*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: $colorPrimario;
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*NABVAR*/
+.menu {
+    background-color: $colorMenu;
+}
+.logo {
+    width: 100px;
+    border-radius: 50px;
+    animation: pulsate 1s ease-in-out;
+}
+@keyframes pulsate {
+    0% {
+        box-shadow:
+        0 0 25px rgb(182, 140, 50),
+        0 0 50px rgb(119, 80, 55);
+    }   
+}
+.nav-link {
+    color: black;
+    font-weight: bold;
+}
+.nav-item:hover {
+    animation: pulsate 1s ease-in-out;
+    border-radius: 50px;
+}
+@keyframes pulsate {
+    0% {
+        box-shadow:
+        0 0 25px rgb(182, 140, 50),
+        0 0 50px rgb(119, 80, 55);
+    }   
+}
