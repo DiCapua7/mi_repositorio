@@ -6,13 +6,17 @@ $colorGeneral: #876445;
 .caja1 {
     text-align: center;
     width: 50%;
-    border: solid 3px #FFAD60;
+    border: solid 3px #f39136;
     margin-top: 20px;
     margin-left: 25%;
     background-color: #614124;
+    padding: 20px;
+    border-radius: 30px;
 }
 .btn {
     margin-bottom: 7px;
+    font-weight: bold;
+    
 }
 .abiertos {
     margin-top: 5px;
@@ -27,25 +31,22 @@ $colorGeneral: #876445;
     color: white;
 }
         
-    /*CANELONES*/
-.canelones {
-    width: 300px;
-    float: left;
-    margin-right: 30px;
-}
-.textcanelones {
-    font-size: 18px;
+    /*CAROUSEL*/
+.parrafoCanelones {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    margin-top: 40px;
+    color: #614124;
 }
+
         
-        /*CAJA 2*/
+    /*CAJA 2*/
 .caja2 {
     text-align: center;
     border: black solid 2px;
-    margin-top: 190px;
+    margin-top: 170px;
     margin-bottom: 20px;
     background-color: #e6b995;
+    padding: 20px;
 }
 .texto {
     font-weight: bold;
@@ -66,7 +67,7 @@ $colorGeneral: #876445;
     display: flex;
     text-align: center;
     align-items: center;
-    border: $colorGeneral solid;
+    border: #876445 solid;
     width: 230px;
     margin-top: 30px;
 }
@@ -74,11 +75,11 @@ $colorGeneral: #876445;
     font-style: italic;
     text-decoration-line: underline; 
 }
-
+/*FIN MENU*/
     
 /*CONTACTO*/
 #contacto {
-    border: $colorGeneral solid;
+    border: #876445 solid;
     background-color: #E6BA95;
 }
 .row {
@@ -88,14 +89,15 @@ $colorGeneral: #876445;
     color: black;
     font-style: oblique;
 }
-
+/*FIN CONTACTO*/
     
 /* NOSOTROS */
 .container-all {
     margin: auto;
     margin-top: 50px;
-    border-top: 3px solid $colorGeneral;
-    border-bottom: 3px solid $colorGeneral;
+    border-top: 3px solid #876445;
+    border-bottom: 3px solid #876445;
+    margin-bottom: 10px;
 }
 .container-all img {
     width: 300px;
@@ -117,7 +119,7 @@ $colorGeneral: #876445;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
 }
-
+/* FIN NOSOTROS */
     
 /*TRABAJA CON NOSOTROS*/
     /*Puesto 1*/
@@ -175,7 +177,8 @@ $colorGeneral: #876445;
     margin-left: 5px;
 }
 .formcv {
-    border: $colorGeneral 2px solid;
+    border: #876445 2px solid;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+/*FIN TRABAJA CON NOSOTROS*/

@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!--SEO-->
+    <meta name="description" content="Riki Food | Conoce nuestra variedades de hamburguesas y pastas.">
+    <meta name="keywords" content="hamburguesas, pastas, comida, casero, sorrentinos, canelones">
+
     <link rel="shortcut icon" href="./img/logo.png">
-    <title>Riki Food</title>
+    <title> Riki Food </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./ESTILOS/style.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
+  
 <!--NAVBAR-->
-    <main class="container">
+  <main class="container">
       <section class="menu">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -21,16 +27,16 @@
               </button>
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./menu.html">Menú</a>
+                    <a class="nav-link active" aria-current="page" href="./menu.html"> Menú </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="./nosotros.html"> Nosotros </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                    <a class="nav-link" href="./contacto.html"> Contacto </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./cv.html">Trabaja con nosotros</a>
+                    <a class="nav-link" href="./cv.html"> Trabaja con nosotros </a>
                   </li>
                 </ul>             
             </div>
@@ -38,38 +44,62 @@
         </section>
 
 <!--CONTENIDO-->
-  <section class="caja1">
-    <div class="d-grid gap-2 d-md-block">
-      <h2 class="abiertos"> OPEN !</h2>
-      <p class="parrafo"> Tu orden será confirmada al instante ! </p>
-      <button class="btn btn-primary" type="button">Ver MENÚ y Ordena</button>
-    </div>
-  </section>
+    <section class="caja1">
+      <div class="d-grid gap-2 d-md-block">
+        <h2 class="abiertos"> OPEN !</h2>
+        <p class="parrafo"> Tu orden será confirmada al instante ! </p>
+        <button class="btn btn-light" type="button"> Ver MENÚ y Ordena </button>
+      </div>
+    </section>
 
-  <div>
-    <img src="./img/canelones.jpg" class="canelones" alt="canelones">
-    <div class="textcanelones">
-      <p> Te abrimos el apetito Dominguero con nuestros potentes Canelones. De base, una masa fina alcolchonada de acelga, jamón, ricota y mozarella. Por ultimo y no menos importante, cubiertos con salsa fileto. Con dos de estas bombas te llenas y si repetis.. quedas pipom !. ¿Qué estás esperando para probar nuestros Canelones?</p>
+<!-- CAROUSEL-->
+    <div class="row">
+      <div id="carouselExampleIndicators" class="carousel slide col-12 col-md-6 mt-5" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/canelones.jpg" class="d-block w-100" alt="canelones">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/sorrentinos.jpg" class="d-block w-100" alt="sorrentinos">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      </div>
+        <div class="col-12 col-md-6 mt-5 text-center">
+          <p class="parrafoCanelones"> Los canelones son una pasta ancha de forma rectangular que se emplea a menudo en la cocina italiana para hacer platos con carne picada, pescado, verdura, requesón o espinacas en su interior. Se suele enrollar formando un cilindro. </br> </br> Los sorrentinos son un tipo de pasta rellena argentina, parecida a los ravioli pero de mayor tamaño y de forma circular. La masa se elabora con harina y huevo, suelen llevar variedad de rellenos que pueden combinar queso, jamón, vegetales. </p>
+        </div>
     </div>
-  </div>
 
-  <section class="caja2">
-      <h2 class="texto">¡NUEVO! Ordena en Linea.</h2>
-    <div>
-      <p class="subtexto">Ordena en línea AHORA los pedidos estan habilitados para recoger en el local o enviar a domicilio. Solo dinos que quieres y nosotros lo prepararemos lo mas rápido que podamos. Todas las órdenes son directamente confirmadas por nosotros manualmente. Conoce en tiempo real cuándo tu comida estará lista. Observa en la pantalla cuándo tu comida estará lista para recogerla en en el local o cuándo será enviada a tu domicilio.</p>
-    </div>
-  </section>
 
-</main>
+    <section class="caja2">
+        <h2 class="texto"> ¡NUEVO! Ordena en Linea. </h2>
+      <div>
+        <p class="subtexto"> Ordena en línea AHORA los pedidos estan habilitados para recoger en el local o enviar a domicilio. Solo dinos que quieres y nosotros lo prepararemos lo mas rápido que podamos. Todas las órdenes son directamente confirmadas por nosotros manualmente. Conoce en tiempo real cuándo tu comida estará lista. Observa en la pantalla cuándo tu comida estará lista para recogerla en en el local o cuándo será enviada a tu domicilio. </p>
+      </div>
+    </section>
+
+  </main>
 
 <!--FOOTER-->
     <footer class="footer">
-            <div>
-              <a href="https://www.facebook.com/Rikifood.ok" target="_blank" title="Acceso directo a nuestra cuenta de facebook">
-                  <img src="img/facebook.svg" alt="Logo de facebook"></a>
-              <a href="https://www.instagram.com/rikifood.ok/" target="_blank" title="Acceso directo a nuestra cuenta de Instagram">
-                  <img src="img/instagram.svg" alt="Logo de Instagram"></a>
-            </div>
+      <div>
+        <a href="https://www.facebook.com/Rikifood.ok" target="_blank" title="Acceso directo a nuestra cuenta de facebook">
+        <img src="img/facebook.svg" alt="Logo de facebook"></a>
+        <a href="https://www.instagram.com/rikifood.ok/" target="_blank" title="Acceso directo a nuestra cuenta de Instagram">
+        <img src="img/instagram.svg" alt="Logo de Instagram"></a>
+      </div>
     </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
