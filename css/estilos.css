@@ -22,7 +22,7 @@ body {
 
 @keyframes pulsate {
   0% {
-    box-shadow: 0 0 25px #b68c32, 0 0 50px #775037; } }
+    box-shadow: 0 0 25px #ffd67e, 0 0 50px #ff6200; } }
 
 .nav-link:hover {
   color: black; }
